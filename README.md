@@ -4,7 +4,6 @@ Super simple event bus in Python 3, built with asyncio. Built around the NodeJS 
 
 ## Usage
 
-Running the script:
 ```python
 from py_event_bus.EventBus import EventBus
 event_bus = EventBus()
@@ -21,7 +20,7 @@ event_bus.emit('some-event', event_data)
 event_bus.remove_listener('some-event', func)
 ```
 
-Will give:
+This will give:
 ```sh
 > cats
 > dogs
