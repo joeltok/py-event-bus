@@ -19,5 +19,3 @@ class EventBus():
     listeners = self.listeners.get(event_name, [])
     for listener in listeners:
       asyncio.create_task(listener(event))
-
-event_bus = EventBus()
