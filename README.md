@@ -2,6 +2,8 @@
 
 Super simple event bus in Python 3, built with asyncio. No decorators required. Built around a subset of the NodeJS [EventEmitter](https://nodejs.org/api/events.html#events_class_eventemitter) API. 
 
+Full write up and explanation coming soon.
+
 ## Usage
 
 ```python
