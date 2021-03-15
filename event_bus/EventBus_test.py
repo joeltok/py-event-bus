@@ -1,7 +1,7 @@
 import pytest
 import asyncio
 
-from .EventBus import EventBus
+from event_bus.EventBus import EventBus
 
 @pytest.mark.asyncio
 async def test_subscribe_remove_and_emit():
