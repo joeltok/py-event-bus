@@ -42,5 +42,5 @@ pip3 install pytest-asyncio
 ## Testing 
 
 ```sh
-python3 -m pytest event_bus/
+python3 -m pytest event_bus/ event_bus_advanced_examples/
 ```
