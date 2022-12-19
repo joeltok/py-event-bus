@@ -4,6 +4,8 @@ Super simple event bus in Python 3, built with asyncio. No decorators required. 
 
 A full write up and explanation can be found [here](https://joeltok.com/blog/2021-3/building-an-event-bus-in-python).
 
+A PyPI package implementating this as a module can be found [here](https://pypi.org/project/event-emitter-asyncio/).
+
 ## Usage
 
 ```python
